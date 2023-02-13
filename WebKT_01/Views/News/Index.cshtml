@@ -1,0 +1,28 @@
+﻿@model List<WebKT_01.Controllers.Aricle>
+
+@{
+    ViewData["Title"] = "New Pages";
+    Layout = "_Layout";
+
+    //var articles = ViewBag.Article;
+    //var articles = ViewData["Articles"] as List<WebKT_01.Controllers.Aricle>;
+}
+
+ <h1>New Listing</h1>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Author</th>
+    </tr>
+    @foreach (var article in Model)
+    {
+        <tr>
+            <td>@article.Id</td>
+            <td>@article.Title</td>
+            <td>@article.Content</td>
+            <td>@article.Author</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="web01dotnetcore5.local/" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Coding\\CShapes\\ASP_NetCore\\WebKT_01\\WebKT_01\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
